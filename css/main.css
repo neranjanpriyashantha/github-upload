@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.getStrt {
+    float: right;
+    width: 200px;
+    margin: 5px;
+}
+
+.topnvi {
+    background-color: red;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f7f4f4;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0px;
+}
+
+.topnvi a {
+    float: left;
+    display: block;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 12px 20px;
+    text-align: center;
+    color: black;
+    transition: 250ms;
+}
+
+.topnvi a:hover {
+    background-color: rgb(160, 87, 255);
+    color: rgb(255, 255, 255);
+}
+
+.topnvi #loginbtn:hover {
+    background-color: rgb(11, 0, 105);
+    color: rgb(255, 255, 255);
+}
+
+.inputs > #get-started-text-box {
+    width: 350px;
+    float: left;
+    margin-left: 30%;
+}
+    
+.inputs > #get-stnd-btn {
+        
+        float: left;
+       
+}
+
+.title-content {
+    margin-top: 30px;
+    margin-top: 60px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.main-image>img {
+    width: 98%;
+    height: 80%;
+    margin-left: 1%;
+}
+
+.details-your-brands {
+    width: 48%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 1%;
+}
+
+.details-pic {
+    width: 48%;
+    height: 200px;
+    float: left;
+}
+
+.details-pic img {
+    width: 95%;
+}
+
+.topnvi .icon {
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .topnvi a:not(:first-child) {
+        display: none;
+    }
+    .topnvi a.icon {
+        float: right;
+        display: block;
+    }
+    .topnvi .getStrt {
+        display: none;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .topnvi.responsive {
+        position: relative;
+    }
+    .topnvi.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnvi.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .inputs > #get-started-text-box {
+        width: 350px;
+        float: left;
+        margin-left: 2%;
+        
+    }
+
+
+}
+
+@media screen and (max-width:520px) {
+    .inputs > #get-started-text-box {
+        width: 90%;
+        float: none;
+        margin-left: 2%;
+       
+        
+    }
+    .inputs > #get-stnd-btn{
+        float: none;
+        width:90%;
+        margin-left: 2%;
+        margin-top:10px;
+    }
+
+    .details-your-brands {
+        width: 98%;
+
+
+    }
+    .details-pic{
+        margin-top: 20px;
+        width: 98%;
+    }
+   
+    
+}

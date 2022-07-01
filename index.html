@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+
+</head>
+
+<body>
+    <div class="topnvi" id="topnviid">
+        <div style="float: left;">
+            <img src="./img/p1.jpg" alt="" id="logo-img-id" style="height:50px; width: 120px; padding:0px;">
+        </div>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+        <button class="getStrt btn btn-primary">Get Start</button>
+        <a href="#" style="float: right; " id="loginbtn"> <b>Login</b></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="./img/menu.svg" style="height: 30px; width: 30px;" alt=""></a>
+    </div>
+    <div class="title-content">
+        <center>
+            <h1>The Commerce Platform made for you</h1>
+            <p>
+                Online shopping is a form of electronic commerce which allows consumers to <br> directly buy goods or services from a seller over the <br> Internet using a web browser or a mobile app.
+            </p>
+            <div class="inputs">
+                <input type="text" id="get-started-text-box" class="form-control"  placeholder="Enter Your Email Address"  >
+
+                <button type="submit" id="get-stnd-btn" class="btn btn-primary mb-3" >Get Started</button>
+            </div>
+        </center>
+    </div>
+
+    <div class="main-image">
+        <img src="./img/afif-kusuma-CT7IWRM7G5k-unsplash2.jpg" alt="">
+    </div>
+
+   
+    <div class="details-your-brands">
+        <p>
+            <h2>Your Brand,Your Way</h2>
+            Online shopping is <a href="">amazing</a> when you know where to find the <br> best deals on designer clothes and uncover the latest fashion trends. <br> Sure, choice is a luxury, but where should you start? We’ll <br> make your next online
+            shopping adventure a breeze. We’ve done all the homework <br> for you to handpick the absolute <a href="">best online shopping sites</a> for women.
+           <br><br> <button class="btn btn-outline-primary">Start saling online</button>
+        </p>
+    </div>
+    <div class="details-pic">
+        <img src="./img/vippng.com-hill-png-4372240.png" alt="">
+    </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("topnviid");
+            if (x.className === "topnvi") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnvi";
+            }
+
+            var y = document.getElementById("logo-img-id");
+            if (y.style.display === "none") {
+            y.style.display = "block";
+            } else {
+                y.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
